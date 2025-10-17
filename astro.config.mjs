@@ -14,7 +14,7 @@ export default defineConfig({
         format: 'file',
     },
     redirects: {
-        "/about/": "/about",
-        "/about.html": "/about",
+        "/test-astro/about/": "/test-astro/about",
+        "/test-astro/about.html": "/test-astro/about",
     }
 });
