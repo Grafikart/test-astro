@@ -12,5 +12,9 @@ export default defineConfig({
     base: '/test-astro',
     build: {
         format: 'file',
+    },
+    redirects: {
+        "/about/": "/about",
+        "/about.html": "/about",
     }
 });
